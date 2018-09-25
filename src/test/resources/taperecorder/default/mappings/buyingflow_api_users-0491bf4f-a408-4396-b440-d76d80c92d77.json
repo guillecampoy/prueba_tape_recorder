@@ -1,0 +1,33 @@
+{
+  "id" : "0491bf4f-a408-4396-b440-d76d80c92d77",
+  "name" : "buyingflow_api_users",
+  "request" : {
+    "url" : "/buyingflow/api/users?client.id=457027154409645&caller.id=312424379",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"user\":{\"addresses\":[{\"additional_info\":null,\"address_line\":\"Test Address 123\",\"billing\":false,\"city\":{\"id\":\"Palermo\",\"name\":\"Palermo\"},\"contact\":null,\"country\":null,\"date_created\":null,\"default_buying\":false,\"default_selling\":false,\"default_value\":false,\"geolocation\":null,\"id\":0,\"municipality\":null,\"neighborhood\":null,\"normalized\":false,\"shipping\":false,\"state\":{\"id\":\"AR-C\",\"name\":\"AR-C\"},\"street_name\":null,\"street_number\":null,\"types\":null,\"zip_code\":\"1414\"}],\"buy_allowed\":true,\"city\":null,\"country_id\":\"AR\",\"doc_number\":\"32659430\",\"doc_type\":\"DNI\",\"email\":\"ivan.vercinsky+312424379@mercadolibre.com\",\"first_name\":\"Test\",\"id\":312424379,\"last_name\":\"Test\",\"loyalty_level\":0,\"nickname\":\"TETE2964849\",\"phone_number\":\"01 1111-1111\",\"points\":0,\"registration_data\":{\"registration_level\":\"completed\"},\"secure_email\":\"ttest.sytyvv@mail.mercadolibre.com\",\"sell_allowed\":true,\"shopping_cart_buy_allowed\":true,\"shopping_cart_sell_allowed\":true,\"shopping_cart_status\":{\"buy_allowed\":true,\"sell_allowed\":true},\"site_id\":\"MLA\",\"status\":{\"billing\":{\"allow\":true,\"codes\":[],\"immediate_payment\":{\"reasons\":null,\"required\":false}},\"buy\":{\"allow\":true,\"codes\":[],\"immediate_payment\":{\"reasons\":[],\"required\":false}},\"immediate_payment\":false,\"list\":{\"allow\":true,\"codes\":[],\"immediate_payment\":{\"reasons\":[],\"required\":false}},\"mercado_envios\":\"not_accepted\",\"mp_account_type\":\"personal\",\"mp_tc_accepted\":true,\"sell\":{\"allow\":true,\"codes\":[],\"immediate_payment\":{\"reasons\":[],\"required\":false}},\"site_status\":\"ACTIVE\"},\"status_buy_address_empty_state\":false,\"status_buy_immediate_payment\":false,\"status_buy_phone_pending\":false,\"status_immediate_payment\":false,\"status_sell_immediate_payment\":false,\"street_line\":null,\"tags\":[\"normal\",\"test_user\",\"user_info_verified\",\"messages_as_seller\",\"messages_as_buyer\"],\"test_entity\":true,\"user_inferred_by_email\":false,\"user_type\":\"normal\",\"zip_code\":null}}",
+    "headers" : {
+      "Server" : "nginx/1.8.0",
+      "Date" : "Tue, 25 Sep 2018 19:17:35 GMT",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Connection" : "keep-alive",
+      "Vary" : "Accept-Encoding",
+      "X-Content-Type-Options" : "nosniff",
+      "X-Request-Id" : "d132ecbc-2fc8-4272-8068-d3fdeeabf82e",
+      "X-Frame-Options" : "DENY",
+      "X-XSS-Protection" : "1; mode=block",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Headers" : "Content-Type",
+      "Access-Control-Allow-Methods" : "PUT, GET, POST, DELETE, OPTIONS",
+      "Access-Control-Max-Age" : "86400",
+      "X-Nginx-Host" : "i-0c01fd905fd20444a-10.92.71.212",
+      "X-Nginx-Pool" : "read.buyingflow-api.melifrontends.com",
+      "X-Nginx-UpstreamHost" : ", 10.69.140.12:80"
+    }
+  },
+  "uuid" : "0491bf4f-a408-4396-b440-d76d80c92d77",
+  "persistent" : true,
+  "insertionIndex" : 1
+}
